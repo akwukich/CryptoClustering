@@ -36,25 +36,29 @@ The project was completed in seven steps:
 
 - **Question:** What is the best value for k?
   
-        Based on purely visual inspection of the graph, the "elbow point" is at k=4 because it is the first point on the line graph where the decrease in inertia is less steep and, therefore, slows down. I also confirmed this by calculating the rate of decrease between each k-value, which demonstrated the percentage decrease slowed between k=4 and k=5.
+Based on purely visual inspection of the graph, the "elbow point" is at k=4 because it is the first point on the line graph where the decrease in inertia is less steep and, therefore, slows down. I also confirmed this by calculating the rate of decrease between each k-value, which demonstrated the percentage decrease slowed between k=4 and k=5.
 
 
 **Question:** What is the total explained variance of the three principal components?
-        The three principal components account for 37.2%, 34.7%, and 17.6% or 89.5% of the total variance. Put another way, about 90% of the total variance is condensed into the 3 PCA variables.
+
+The three principal components account for 37.2%, 34.7%, and 17.6% or 89.5% of the total variance. Put another way, about 90% of the total variance is condensed into the 3 PCA variables.
 
 - **Question:**: What is the best value for k when using the PCA data?
-        Based on purely visual inspection of the graph, the "elbow point" is at k=4 because it is the first point on the line graph where the decrease in inertia is less steep and, therefore, slows down. I also confirmed this by calculating the rate of decrease between each k-value, which demonstrated the percentage decrease slowed between k=4 and k=5.
+
+Based on purely visual inspection of the graph, the "elbow point" is at k=4 because it is the first point on the line graph where the decrease in inertia is less steep and, therefore, slows down. I also confirmed this by calculating the rate of decrease between each k-value, which demonstrated the percentage decrease slowed between k=4 and k=5.
 
 - **Question:** Does it differ from the best k value found using the original data?
-        No.
+
+No.
         
 
 - **Question:** Question: Which features have the strongest positive or negative influence on each component?
-        PCA1: price_change_percentage_200d and price_change_percentage_1y both have moderately strong positive correlations with PCA1 because their component weights were 0.59 and 0.57, respectively.
 
-        PCA2: price_change_percentage_30d and price_change_percentage_14d both have moderately strong positive correlations with PCA1 because their component weights were 0.56 and 0.54, respectively.
+PCA1: price_change_percentage_200d and price_change_percentage_1y both have moderately strong positive correlations with PCA1 because their component weights were 0.59 and 0.57, respectively.
 
-        PCA3: price_change_percentage_7d strong positive correlation b/c component weight was 0.79
+PCA2: price_change_percentage_30d and price_change_percentage_14d both have moderately strong positive correlations with PCA1 because their component weights were 0.56 and 0.54, respectively.
+
+PCA3: price_change_percentage_7d strong positive correlation b/c component weight was 0.79
 
 
 ## Resources Consulted
